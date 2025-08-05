@@ -1,5 +1,4 @@
 import { css } from "../styled-system/css";
-import "./index.css";
 
 function App() {
   return (
@@ -8,6 +7,7 @@ function App() {
         bg: "blue.500",
         color: "white",
         p: "4",
+        fontFamily: "body",
         fontSize: "2xl",
         borderRadius: "md",
       })}

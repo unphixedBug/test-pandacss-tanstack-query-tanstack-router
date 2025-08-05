@@ -12,7 +12,31 @@ export default defineConfig({
 
   // Useful for theme customization
   theme: {
-    extend: {},
+    extend: {
+      tokens: {
+        fonts: {
+          body: { value: "Nunito Sans, sans-serif" },
+        },
+        fontWeights: {
+          light: { value: "300" },
+          semibold: { value: "600" },
+          extrabold: { value: "800" },
+        },
+        colors: {
+          dark: {
+            elements: { value: "hsl(209, 23%, 22%)" },
+            background: { value: "hsl(207, 26%, 17%)" },
+            text: { value: "hsl(0, 100%, 100%)" },
+          },
+          light: {
+            text: { value: "hsl(200, 15%, 8%)" },
+            input: { value: "hsl(0, 0%, 50%)" },
+            background: { value: "hsl(0, 0%, 99%)" },
+            elements: { value: "hsl(0, 100%, 100%)" },
+          },
+        },
+      },
+    },
   },
 
   // The output directory for your css system

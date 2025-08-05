@@ -55,3 +55,18 @@
 ---
 
 _Ce fichier peut être copié-collé au début de chaque conversation pour maintenir le contexte d'apprentissage._
+
+📋 Ordre d'Implémentation Recommandé
+
+V 1. Configuration PandaCSS & Design System
+Pourquoi : Établir les fondations visuelles avant tout développement. PandaCSS nécessite une configuration des tokens de couleur et de typographie pour le thème sombre/clair.
+V 2. Structure de Base & Routing
+Pourquoi : Définir l'architecture de l'application avec les routes principales (home, detail) avant d'implémenter les fonctionnalités. 3. Composants UI de Base
+Pourquoi : Créer les composants réutilisables (Card, Button, Input, Select) qui seront utilisés dans toutes les pages. 4. Layout & Navigation
+Pourquoi : Établir la structure globale avec header (incluant le switch de thème) et navigation. 5. Page d'Accueil - Affichage des Pays
+Pourquoi : Implémenter l'affichage de base avant d'ajouter les fonctionnalités de filtrage. 6. Fonctionnalités de Recherche & Filtrage
+Pourquoi : Ajouter les interactions utilisateur une fois que l'affichage de base fonctionne. 7. Page de Détail d'un Pays
+Pourquoi : Développer la vue détaillée après avoir maîtrisé l'affichage de base. 8. Navigation entre Pays Frontaliers
+Pourquoi : Fonctionnalité avancée qui nécessite que le routing et l'affichage des détails soient solides. 9. Optimisations & Polish
+Pourquoi : Finaliser l'expérience utilisateur une fois que toutes les fonctionnalités principales sont implémentées.
+Principe : Du plus simple au plus complexe, en construisant sur des fondations solides à chaque étape.
